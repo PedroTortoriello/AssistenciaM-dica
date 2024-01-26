@@ -69,7 +69,7 @@ function App() {
   return (
     <div className="container">
       <div>
-        <h2>Formulário de Cadastro</h2>
+        <h2>Cadastro de Titular</h2>
         <form>
           <div>
             <label htmlFor="matricula">Número de Matrícula:</label>
@@ -84,7 +84,7 @@ function App() {
             <input type="text" id="empresa" value={empresa} onChange={(e) => setEmpresa(e.target.value)} />
           </div>
           <div>
-            <label htmlFor="filial">Filial do Titular:</label>
+            <label htmlFor="filial">Filial:</label>
             <input type="text" id="filial" value={filial} onChange={(e) => setFilial(e.target.value)} />
           </div>
           <button type="button" onClick={enviarTitular}>Enviar Titular</button>
@@ -92,7 +92,7 @@ function App() {
       </div>
 
       <div>
-        <h2>Tabela de Cadastros de Titulares</h2>
+        <h2>Titular</h2>
         <table>
           <thead>
             <tr>
@@ -116,7 +116,7 @@ function App() {
       </div>
 
       <div>
-        <h2>Formulário de Dependente</h2>
+        <h2>Cadastro de Dependente</h2>
         <form>
           <div>
             <label htmlFor="tipo-dependente">Tipo de Dependente:</label>
@@ -148,7 +148,7 @@ function App() {
       </div>
 
       <div>
-        <h2>Tabela de Cadastros de Dependentes</h2>
+        <h2>Dependentes</h2>
         <table>
           <thead>
             <tr>
